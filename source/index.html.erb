@@ -1,0 +1,54 @@
+
+<div id="articles">
+  <h2>Recent Articles</h2>
+  <ol>   
+    <% 
+      articles = []
+      featured_articles = []
+      standard_articles = []
+      blog.articles.each do |article|
+        next unless article.data.layout == 'article'
+        if article.data.send(:featured)
+          featured_articles << article
+        else
+          standard_articles << article
+        end
+      end
+      articles.concat featured_articles
+      articles.concat standard_articles
+      #articles = blog.articles.select { |article| article.data.layout == 'article' }
+      #featured_articles = articles.select { |article| article.data.send(:featured) } 
+      #standard_articles = articles.select { |article| article.data.send(:featured) } 
+    %>
+    <% 
+    #articles = articles.sort_by {|obj| 
+    #  obj.data["featured"] = false unless obj.data.has_key?(:featured); # ? true : false 
+    #  return obj.data["featured"]
+    #} 
+    %>
+    <% articles.each_slice(4) do |slice| %>
+      <div class="row">
+        <% slice.each do |article| %>
+          <div class="large-3 columns">
+            <%= link_to(image_tag(article.data.image), article) if article.data.image && article.data.featured %>
+            <!--
+            obj.data.send(:featured) ? true : false
+            obj.data.featured
+            raise
+            -->
+            <div class="container">
+              <h3 class="title"><%= link_to article.title, article %></h3>
+              <!--<time><%= article.date.strftime('%b %e') %></time>-->
+              <p><%= article.summary(200) %></p>
+              <div class="category"><%= article.data.tags.split(", ")[0] %></div>
+              <!--
+              <div class="tags"><%= tag_links(article) %></div>
+              <%= link_to "Read more", article, { class: 'more-link' } %>
+              -->
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </ol>
+</div>
