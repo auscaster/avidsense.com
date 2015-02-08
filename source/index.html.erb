@@ -1,6 +1,15 @@
 
+<div id="welcome">
+  <h1 id="logo">
+    <%= 
+      link_to(image_tag("logo-650x218.png", title: data.site.name, alt: data.site.name), data.site.url, title: data.site.name, rel: "home") #, height: 218, width: 650
+    %>
+    <span>Insight for <em>passion</em>ate minds</span>
+  </h1>
+</div>
+
 <div id="articles">
-  <h2>Recent Articles</h2>
+  <!--<h2>Recent Articles</h2>-->
   <ol>   
     <% 
       articles = []
@@ -30,7 +39,7 @@
       <div class="row">
         <% slice.each do |article| %>
           <div class="large-3 columns">
-            <%= link_to(image_tag(article.data.image), article) if article.data.image && article.data.featured %>
+            <%= link_to(image_tag(article.data.image), article, class: 'image') if article.data.image && article.data.featured %>
             <!--
             obj.data.send(:featured) ? true : false
             obj.data.featured

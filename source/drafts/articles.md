@@ -1,17 +1,6 @@
-Recliner.js
-
 Paradoxes
 
 Psychedelics
-	Indians
-	Mayans?
-	Bebelon?
-	Modern
-	LSD
-		Micromiligram dosage, modern chemists frying their brain
-		Synthesis
-		Bio chemistry, and dark room
-	DMT
 	Include synthesis
 
 Communications

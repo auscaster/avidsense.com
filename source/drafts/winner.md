@@ -1,5 +1,12 @@
 # Being a Winner (Winnerism)
 
+<!--
+dominance, head of the tribe
+alpha misconception
+-->
+
+This article is not a rehash of any particular psychological doctrine, just the observances of a humble scholar loose in the big bad world. Wheather you travel, conduct business, or stay cooped up in your room (fwiw that's not the lifestyle of a winner) only to emerge for the life's bare necesseties, you come across personality types of all kinds. Taking a glance across the crowded room (a coffee shop in Spain) I see very few people who look like **winners**. I guess society taught them well.
+
 Being a winner is more than slapping on some nice threads and a smile, it's about projection; the energy that we project onto the world.
 
 This energy is evident in the way we:
@@ -7,6 +14,8 @@ This energy is evident in the way we:
 * Talk
 * Hold ourselves (posture)
 * Interact with others
+
+When we witness someone who exudes this energy we are aware of something fundamentally and indefinably *correct* about their appearance. It's impressive and effortless. 
 
 There are a few different types of winner; the neieve (try-hard) winner, the compeditor, and the natural.
 

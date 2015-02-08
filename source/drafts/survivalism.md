@@ -10,15 +10,15 @@ The further our society departs from nature, the very source that gives us life,
 
 If your world revolves around computers and electronic devices, then you should seriously give some thought to how life would be without it. How would you survive?
 
-Most people thing that the government has their backs in a time of emergency, but it’s just not the case.
+Most people thing that the government has their backs in a time of emergency, but it's just not the case.
 
-In Australia we import most of the food we should be growing ourselves because of trade agreements. If the deliveries stop, and the trucks stop filling the supermarkets, then we are only three square meals from total anarchy. Scary though, isn’t it?
+In Australia we import most of the food we should be growing ourselves because of trade agreements. If the deliveries stop, and the trucks stop filling the supermarkets, then we are only three square meals from total anarchy. Scary though, isn't it?
 
-This article isn’t to scare people, it’s a wake-up call to empower people to change their own lives and those they love, because no-one else will do it for you.
+This article isn't to scare people, it's a wake-up call to empower people to change their own lives and those they love, because no-one else will do it for you.
 
 Rather than frittering your time on Facebook, go buy some seeds and get your hands dirty building a garden. Instead of reading up on the next funky Apple device, try reading a book on how to survive in the wilderness, then go do it!
 
-There’s nothing wrong with hoping for the best, but always plan for the worst. Life is good, so go live it!
+There's nothing wrong with hoping for the best, but always plan for the worst. Life is good, so go live it!
 
 ##################
 
@@ -50,7 +50,3 @@ Bug-out 101
 ## Location
 
 For most first world countries the government has disaster reaction plans in place (take from Food...)
-
-
-
-

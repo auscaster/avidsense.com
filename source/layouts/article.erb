@@ -2,9 +2,9 @@
 <html class="no-js" lang="en">
   <%= partial "head" %>    
   <body class="article <%= page_classes %>">    
+    <%= partial "header" %>   
     <%= partial "nav" %>  
-    <%= image_tag(current_article.data.banner, id: 'banner') if current_article.data.banner %>
-    <%= partial "header" %>    
+    <%= image_tag(current_article.data.banner, id: 'banner') if current_article.data.banner %> 
     <div id="main" role="main">
       <% 
         content = Nokogiri::HTML(yield)
